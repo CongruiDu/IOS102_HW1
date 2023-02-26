@@ -40,6 +40,7 @@ GIF created with Imgur
 ## Notes
 
 Describe any challenges encountered while building the app.
+
 At the beginning, i did not understand how Auto-layout works. When i checked the link on the Hint section, the website said i didn't have access to the document. In order to resolve my problem, i watched some tutorials about constraints on Youtube.
 ## License
 
