@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xkf-1B-a7B">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Batman-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HW1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mN2-Qj-bFI">
+                                <rect key="frame" x="20" y="306" width="353" height="55"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Ntd-PC-3KG"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="My Background"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="LEa-Re-JTb" appends="YES" id="EUR-h9-ipx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BD8-Ih-QlZ">
+                                <rect key="frame" x="20" y="361" width="353" height="55"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="LpB-3p-ToX"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="My Personality "/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="jOL-0R-obM" appends="YES" id="arB-f2-0Ft"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2u1-hV-U39">
+                                <rect key="frame" x="20" y="416" width="353" height="55"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="YaM-1n-w6K"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="My Weapons"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="R6u-jQ-hV0" appends="YES" id="O02-sB-wlM"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Batman" translatesAutoresizingMaskIntoConstraints="NO" id="CfT-GC-shi">
+                                <rect key="frame" x="20" y="123" width="353" height="183"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="183" id="qAc-SI-WdY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                        <constraints>
+                            <constraint firstItem="CfT-GC-shi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5XR-d4-Ooj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mN2-Qj-bFI" secondAttribute="trailing" constant="20" id="6zE-9J-xd8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2u1-hV-U39" secondAttribute="trailing" constant="20" id="C0Y-nq-wS1"/>
+                            <constraint firstItem="2u1-hV-U39" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="EzG-c9-1UL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CfT-GC-shi" secondAttribute="trailing" constant="20" id="G67-3J-bUA"/>
+                            <constraint firstItem="BD8-Ih-QlZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="IY1-Vg-8NZ"/>
+                            <constraint firstItem="BD8-Ih-QlZ" firstAttribute="top" secondItem="mN2-Qj-bFI" secondAttribute="bottom" id="LEC-MB-mwx"/>
+                            <constraint firstItem="mN2-Qj-bFI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ceR-rf-KSQ"/>
+                            <constraint firstItem="CfT-GC-shi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="f5J-vh-ldH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BD8-Ih-QlZ" secondAttribute="trailing" constant="20" id="haX-bc-hxI"/>
+                            <constraint firstItem="2u1-hV-U39" firstAttribute="top" secondItem="BD8-Ih-QlZ" secondAttribute="bottom" id="p6X-aY-Iey"/>
+                            <constraint firstItem="mN2-Qj-bFI" firstAttribute="top" secondItem="CfT-GC-shi" secondAttribute="bottom" id="vXR-dL-Pc4"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Batman" id="DuX-r8-CCA"/>
+                    <connections>
+                        <segue destination="DP6-Rs-pj4" kind="show" identifier="detailSegue" id="2Lh-xU-h5o"/>
+                        <segue destination="agP-dI-7pz" kind="show" identifier="d2" id="ygk-aN-soD"/>
+                        <segue destination="LSB-Ba-Z9C" kind="show" identifier="s3" id="zfA-Si-DeT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="LEa-Re-JTb" userLabel="tap1">
+                    <connections>
+                        <action selector="BGbutton:" destination="BYZ-38-t0r" id="P2Y-DH-wwe"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="jOL-0R-obM" userLabel="tap2">
+                    <connections>
+                        <action selector="personality:" destination="BYZ-38-t0r" id="gYa-Yj-HrG"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="R6u-jQ-hV0" userLabel="tap3">
+                    <connections>
+                        <action selector="weapons:" destination="BYZ-38-t0r" id="Yvd-DC-hAc"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="awF-jl-VSB">
+            <objects>
+                <viewController id="agP-dI-7pz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Bv-mA-afu">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="P" translatesAutoresizingMaskIntoConstraints="NO" id="pg4-uE-3zO">
+                                <rect key="frame" x="20" y="173" width="353" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="PuO-TX-6qQ"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Irv-nw-Kvr">
+                                <rect key="frame" x="20" y="301" width="353" height="160"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="lVm-kT-Xz5"/>
+                                </constraints>
+                                <string key="text">Batman has proved to have a great love for humanity, which was instilled by his parents. His father was a doctor, while his mother was a crusader against child abuse. Indeed, Batman's oath of vengeance is tempered with the greater ideal of justice. He refrains from killing, as he feels this would not make him any better than the criminals he fights. He is also a very prominent member of the Justice League and the founder of the Outsiders.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Personality" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Yn-93-gQH">
+                                <rect key="frame" x="20" y="123" width="353" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gwA-WV-voP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eqt-5O-H4n"/>
+                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                        <constraints>
+                            <constraint firstItem="Irv-nw-Kvr" firstAttribute="leading" secondItem="eqt-5O-H4n" secondAttribute="leading" constant="20" id="1zh-Ht-CuY"/>
+                            <constraint firstItem="pg4-uE-3zO" firstAttribute="leading" secondItem="eqt-5O-H4n" secondAttribute="leading" constant="20" id="CO4-Az-rwM"/>
+                            <constraint firstItem="0Yn-93-gQH" firstAttribute="leading" secondItem="eqt-5O-H4n" secondAttribute="leading" constant="20" id="GFp-hB-Qqm"/>
+                            <constraint firstItem="eqt-5O-H4n" firstAttribute="trailing" secondItem="0Yn-93-gQH" secondAttribute="trailing" constant="20" id="PGD-CH-7hY"/>
+                            <constraint firstItem="eqt-5O-H4n" firstAttribute="trailing" secondItem="pg4-uE-3zO" secondAttribute="trailing" constant="20" id="RSi-Fb-Be8"/>
+                            <constraint firstItem="pg4-uE-3zO" firstAttribute="top" secondItem="0Yn-93-gQH" secondAttribute="bottom" constant="20" id="SKK-lW-hdx"/>
+                            <constraint firstItem="eqt-5O-H4n" firstAttribute="trailing" secondItem="Irv-nw-Kvr" secondAttribute="trailing" constant="20" id="UYU-ge-Gf3"/>
+                            <constraint firstItem="Irv-nw-Kvr" firstAttribute="top" secondItem="pg4-uE-3zO" secondAttribute="bottom" id="mBh-Aq-HJM"/>
+                            <constraint firstItem="0Yn-93-gQH" firstAttribute="top" secondItem="eqt-5O-H4n" secondAttribute="top" constant="20" id="rHr-hS-el7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="g2b-JO-osk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ad6-GY-ysz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1000.763358778626" y="671.83098591549299"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rEB-cr-jqa">
+            <objects>
+                <viewController id="LSB-Ba-Z9C" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kVn-DO-aa8">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Weapons" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xcf-ej-HfZ">
+                                <rect key="frame" x="20" y="123" width="353" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="X0v-ml-DaN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pxK-h0-xOh">
+                                <rect key="frame" x="20" y="303" width="353" height="200"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="HPM-LS-JS3"/>
+                                </constraints>
+                                <mutableString key="text">1. Batarangs: Small bat-shaped throwing weapons. Originally based on Aboriginal Australian boomerangs, more recent years have depicted them as being similar to shuriken. Batman often made use of gadget variant Batarangs on multiple occasions, including explosive, electrically charged, remote-controlled and heated variants. 2. Gas Capsules: Small miniature pellets containing chemical components that, when mixed, release airborne agents. These have often been depicted to contain incapacitating components, such as tear and knockout gas. Batman has more commonly used smoke-based variants, which release thick clouds of smoke to distract enemies or cover escapes.</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="W" translatesAutoresizingMaskIntoConstraints="NO" id="9lH-Ay-RSu">
+                                <rect key="frame" x="20" y="173" width="353" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="6Gt-KR-6jf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UvZ-DL-GwH"/>
+                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                        <constraints>
+                            <constraint firstItem="pxK-h0-xOh" firstAttribute="leading" secondItem="UvZ-DL-GwH" secondAttribute="leading" constant="20" id="2vJ-p6-RjD"/>
+                            <constraint firstItem="9lH-Ay-RSu" firstAttribute="top" secondItem="xcf-ej-HfZ" secondAttribute="bottom" constant="20" id="4gg-SG-cR5"/>
+                            <constraint firstItem="UvZ-DL-GwH" firstAttribute="trailing" secondItem="pxK-h0-xOh" secondAttribute="trailing" constant="20" id="5Gh-ip-rrT"/>
+                            <constraint firstItem="9lH-Ay-RSu" firstAttribute="leading" secondItem="UvZ-DL-GwH" secondAttribute="leading" constant="20" id="Bd1-zj-ajm"/>
+                            <constraint firstItem="UvZ-DL-GwH" firstAttribute="trailing" secondItem="9lH-Ay-RSu" secondAttribute="trailing" constant="20" id="NQ6-Ak-D8x"/>
+                            <constraint firstItem="pxK-h0-xOh" firstAttribute="top" secondItem="9lH-Ay-RSu" secondAttribute="bottom" id="NRB-eA-POx"/>
+                            <constraint firstItem="xcf-ej-HfZ" firstAttribute="leading" secondItem="UvZ-DL-GwH" secondAttribute="leading" constant="20" id="lLV-WX-o4v"/>
+                            <constraint firstItem="UvZ-DL-GwH" firstAttribute="trailing" secondItem="xcf-ej-HfZ" secondAttribute="trailing" constant="20" id="t0q-Hl-qzG"/>
+                            <constraint firstItem="xcf-ej-HfZ" firstAttribute="top" secondItem="UvZ-DL-GwH" secondAttribute="top" constant="20" id="zUd-6c-fAK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mlb-4t-rdz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oaI-EK-DEu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1826.7175572519084" y="671.83098591549299"/>
+        </scene>
+        <!--Detail View Controller View Controller-->
+        <scene sceneID="N1A-Wq-QqT">
+            <objects>
+                <viewController id="DP6-Rs-pj4" customClass="DetailViewControllerViewController" customModule="HW1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UWX-9L-Geu">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Background" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hH-OO-n3w">
+                                <rect key="frame" x="20" y="123" width="353" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ueh-Xf-Od6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ysp-ks-kRg">
+                                <rect key="frame" x="20" y="353" width="353" height="179"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="179" id="wIN-cn-pNo"/>
+                                </constraints>
+                                <string key="text">Unlike other superheroes, Batman is often depicted to lack any "superpowers", instead using lifelong training and equipment to fight crime. His secret identity is Bruce Wayne, a rich playboy and philanthropist who swore to fight crime after witnessing his parents' brutal murder.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG" translatesAutoresizingMaskIntoConstraints="NO" id="4vJ-T9-D90">
+                                <rect key="frame" x="20" y="153" width="353" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="uh3-St-eTk"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Lui-7x-iXb"/>
+                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                        <constraints>
+                            <constraint firstItem="Lui-7x-iXb" firstAttribute="trailing" secondItem="4vJ-T9-D90" secondAttribute="trailing" constant="20" id="GxF-3k-fJm"/>
+                            <constraint firstItem="4hH-OO-n3w" firstAttribute="top" secondItem="Lui-7x-iXb" secondAttribute="top" constant="20" id="LBH-7j-6bS"/>
+                            <constraint firstItem="Lui-7x-iXb" firstAttribute="trailing" secondItem="4hH-OO-n3w" secondAttribute="trailing" constant="20" id="Vjw-kj-Jpa"/>
+                            <constraint firstItem="4hH-OO-n3w" firstAttribute="leading" secondItem="Lui-7x-iXb" secondAttribute="leading" constant="20" id="YHv-PJ-Rfg"/>
+                            <constraint firstItem="4vJ-T9-D90" firstAttribute="leading" secondItem="Lui-7x-iXb" secondAttribute="leading" constant="20" id="ZVX-bn-OCI"/>
+                            <constraint firstItem="Lui-7x-iXb" firstAttribute="trailing" secondItem="Ysp-ks-kRg" secondAttribute="trailing" constant="20" id="kuM-G1-B2M"/>
+                            <constraint firstItem="Ysp-ks-kRg" firstAttribute="leading" secondItem="Lui-7x-iXb" secondAttribute="leading" constant="20" id="nmQ-IC-wFW"/>
+                            <constraint firstItem="Ysp-ks-kRg" firstAttribute="top" secondItem="4vJ-T9-D90" secondAttribute="bottom" id="ufv-5v-s8I"/>
+                            <constraint firstItem="4vJ-T9-D90" firstAttribute="top" secondItem="4hH-OO-n3w" secondAttribute="bottom" id="xAv-sz-axc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hd9-jK-aFt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Db5-h0-ZVm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1739.6946564885495" y="10.563380281690142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Y76-Ku-CDY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xkf-1B-a7B" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ft5-7V-q9i">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="156-GQ-IPR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qhY-du-dkt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BG" width="1140" height="641"/>
+        <image name="Batman" width="400" height="400"/>
+        <image name="P" width="1400" height="700"/>
+        <image name="W" width="1158" height="695"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
