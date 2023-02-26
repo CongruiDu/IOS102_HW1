@@ -2,7 +2,7 @@
 
 Submitted by: Congrui Du
 
-**Name of your app** is an app that introduces Batman
+HW1 is an app that introduces Batman
 
 Time spent: 3 hours spent in total
 
@@ -12,24 +12,23 @@ The following **required** functionality is completed:
 
 - [X] Users are able to see a customized app icon and launch screen
 - [X] Your app should work for any screen size and orientation using AutoLayout constraints
-  - [ ] Mark here if you will demostrate auto layout implemention as horizontal rotation or different phone size or both, then erase this text
+  - [X] Mark here if you will demostrate auto layout implemention as horizontal rotation or different phone size or both, then erase this text
 - [X] Users are able to see at least 3 context items
 - [X] Users are able to tap into each context item and see detail view contains information about each item (title, description, picture if applicable, etc.)
  
 The following **optional** features are implemented:
 
-- [ ] Improve and customize the user interface through styling and coloring
-- [ ] Allow users to scroll when context items are off-screen (table view implemention)
+- [X] Improve and customize the user interface through styling and coloring
+- [X] Allow users to scroll when context items are off-screen (table view implemention)
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/a/9ZqKcMI' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/uqEoNHG.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Imgur 
@@ -41,7 +40,7 @@ GIF created with Imgur
 ## Notes
 
 Describe any challenges encountered while building the app.
-I had trouble with the su
+At the beginning, i did not understand how Auto-layout works. When i checked the link on the Hint section, the website said i didn't have access to the document. In order to resolve my problem, i watched some tutorials about constraints on Youtube.
 ## License
 
     Copyright [2023] [Congrui Du]
