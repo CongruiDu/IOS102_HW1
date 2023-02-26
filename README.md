@@ -1,20 +1,20 @@
-# Project 1 - *Name of App Here*
+# Project 1 - HW1
 
-Submitted by: **Your Name Here**
+Submitted by: Congrui Du
 
-**Name of your app** is an app that introduces ... [TODO] 
+**Name of your app** is an app that introduces Batman
 
-Time spent: **X** hours spent in total
+Time spent: 3 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] Users are able to see a customized app icon and launch screen
-- [ ] Your app should work for any screen size and orientation using AutoLayout constraints
+- [X] Users are able to see a customized app icon and launch screen
+- [X] Your app should work for any screen size and orientation using AutoLayout constraints
   - [ ] Mark here if you will demostrate auto layout implemention as horizontal rotation or different phone size or both, then erase this text
-- [ ] Users are able to see at least 3 context items
-- [ ] Users are able to tap into each context item and see detail view contains information about each item (title, description, picture if applicable, etc.)
+- [X] Users are able to see at least 3 context items
+- [X] Users are able to tap into each context item and see detail view contains information about each item (title, description, picture if applicable, etc.)
  
 The following **optional** features are implemented:
 
@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/ZsIM5d' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -41,10 +41,10 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
-
+I had trouble with the su
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Congrui Du]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
